@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a6bc42f-6f47-414c-8cfb-169583e00cec" name="Default" comment="full">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Db.php" afterPath="$PROJECT_DIR$/Db.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,19 +13,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Db.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Db.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="137" column="2" lean-forward="true" selection-start-line="137" selection-start-column="2" selection-end-line="137" selection-end-column="40" />
+            <state relative-caret-position="1460">
+              <caret line="73" column="33" lean-forward="true" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
               <folding>
-                <marker date="1627049331007" expanded="true" signature="419:648" ph="CREATE TABLE... IF" />
-                <marker date="1627049331007" expanded="true" signature="669:856" ph="CREATE TABLE... IF" />
-                <marker date="1627049331007" expanded="true" signature="876:1401" ph="CREATE TABLE... Team_Group" />
-                <marker date="1627049331007" expanded="true" signature="1421:1594" ph="INSERT INTO `team`... " />
-                <marker date="1627049331007" expanded="true" signature="1614:1735" ph="INSERT INTO `group`... " />
-                <marker date="1627049331007" expanded="true" signature="1755:1977" ph="INSERT INTO `team_group`... " />
-                <marker date="1627049331007" expanded="true" signature="1998:2259" ph="SELECT `grou... team_group" />
+                <marker date="1627055440364" expanded="true" signature="421:660" ph="CREATE TABLE... IF" />
+                <marker date="1627055440364" expanded="true" signature="687:882" ph="CREATE TABLE... IF" />
+                <marker date="1627055440364" expanded="true" signature="906:1451" ph="CREATE TABLE... Team_Group" />
+                <marker date="1627055440364" expanded="true" signature="1475:1658" ph="INSERT INTO `team`... " />
+                <marker date="1627055440364" expanded="true" signature="1682:1809" ph="INSERT INTO `group`... " />
+                <marker date="1627055440364" expanded="true" signature="1833:2071" ph="INSERT INTO `team_group`... " />
+                <marker date="1627055440364" expanded="true" signature="2094:2355" ph="SELECT `grou... team_group" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-765">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="team.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/team.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="group.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/group.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-540">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1627038346288" expanded="true" signature="693:713" ph="..." />
+                <marker date="1627038346288" expanded="true" signature="747:767" ph="..." />
               </folding>
             </state>
           </provider>
@@ -50,7 +83,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="210" />
     <option name="y" value="353" />
     <option name="width" value="1079" />
@@ -113,15 +146,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627046268770</updated>
-      <workItem from="1627046270361" duration="4199000" />
+      <workItem from="1627046270361" duration="5163000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4199000" />
+    <option name="totallyTimeSpent" value="5163000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -157,16 +190,43 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="137" column="2" lean-forward="true" selection-start-line="137" selection-start-column="2" selection-end-line="137" selection-end-column="40" />
+        <state relative-caret-position="1460">
+          <caret line="73" column="33" lean-forward="true" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
           <folding>
-            <marker date="1627049331007" expanded="true" signature="419:648" ph="CREATE TABLE... IF" />
-            <marker date="1627049331007" expanded="true" signature="669:856" ph="CREATE TABLE... IF" />
-            <marker date="1627049331007" expanded="true" signature="876:1401" ph="CREATE TABLE... Team_Group" />
-            <marker date="1627049331007" expanded="true" signature="1421:1594" ph="INSERT INTO `team`... " />
-            <marker date="1627049331007" expanded="true" signature="1614:1735" ph="INSERT INTO `group`... " />
-            <marker date="1627049331007" expanded="true" signature="1755:1977" ph="INSERT INTO `team_group`... " />
-            <marker date="1627049331007" expanded="true" signature="1998:2259" ph="SELECT `grou... team_group" />
+            <marker date="1627055440364" expanded="true" signature="421:660" ph="CREATE TABLE... IF" />
+            <marker date="1627055440364" expanded="true" signature="687:882" ph="CREATE TABLE... IF" />
+            <marker date="1627055440364" expanded="true" signature="906:1451" ph="CREATE TABLE... Team_Group" />
+            <marker date="1627055440364" expanded="true" signature="1475:1658" ph="INSERT INTO `team`... " />
+            <marker date="1627055440364" expanded="true" signature="1682:1809" ph="INSERT INTO `group`... " />
+            <marker date="1627055440364" expanded="true" signature="1833:2071" ph="INSERT INTO `team_group`... " />
+            <marker date="1627055440364" expanded="true" signature="2094:2355" ph="SELECT `grou... team_group" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/group.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1627038346288" expanded="true" signature="693:713" ph="..." />
+            <marker date="1627038346288" expanded="true" signature="747:767" ph="..." />
           </folding>
         </state>
       </provider>
