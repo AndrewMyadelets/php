@@ -135,5 +135,7 @@ class Db
 
 http://sqlfiddle.com/#!9/4a6356/1/0
 
+//cd openserver/domains/freento.test/php
+
 //$db = new Db();
 //$db->query();
